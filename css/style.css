@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+.calculator {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: url("../images/bg1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+    .calculator-title {
+        color: rgba(245, 245, 245, 0.69);
+        font-size: 130px;
+        padding: 10px;
+    }
+
+    .label {
+        color: rgba(245, 245, 245, 0.933);
+        font-size: 50px;
+        padding: 10px;
+    }
+
+    .userNumber {
+        font-size: 50px;
+        color: rgba(245, 245, 245, 0.934);
+        background-color: rgba(4, 43, 4, 0);
+        font-family: 'Gloria Hallelujah', cursive;
+        text-align: center;
+    }
+
+    .checkBtn {
+        background-color: rgba(4, 43, 4, 0);
+        color: whitesmoke;
+        font-size: 50px;
+        padding: 10px;
+        font-family: 'Gloria Hallelujah', cursive;
+    }
+
+    .result {
+        color: rgba(245, 245, 245, 0.952);
+        font-size: 50px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
